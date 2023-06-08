@@ -3,13 +3,13 @@ import typing
 from db.movie_dto import MovieDto
 
 YOUTUBE_TRAILER_URL = "https://www.youtube.com/embed/"
-TEMPLATE_HTML = "MoviesDB/_static/index_template.html"
+TEMPLATE_HTML = "_static/index_template.html"
 DIV_HTML = '<div class="slider-container">'
 FRAME_HTML = '<div class="container">\n\
 <iframe \
 src="https://www.pngitem.com/pimgs/m/387-3870252_background-filmstrip-transparent-film-tape-png-png-download.png" \
 width="720" height="380" name="trailer"></iframe></div></body>'
-NEW_HTML = "MoviesDB/_static/index.html"
+NEW_HTML = "_static/index.html"
 
 
 class WebGenerator:
