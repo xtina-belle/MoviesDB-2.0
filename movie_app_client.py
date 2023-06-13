@@ -20,7 +20,7 @@ class MovieAppClient:
         self._movie_db.setup()
 
     def run_new_account(self):
-        print("Your Movie DataBase is empty./nLet's add your first movie!")
+        print("Your Movie DataBase is empty.\nLet's add your first movie!")
         while True:
             self._add_movie()
             if self._movie_db.get_movies():

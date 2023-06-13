@@ -22,7 +22,7 @@ class YoutubeAPIClient:
         params = {
             "key": GOOGLE_API_KEY,
             "part": "snippet",
-            "q": name + "trailer",
+            "q": f"{name} trailer",
             "maxResults": "1",
         }
         response = requests.get(f"{BASE_URL}/search", params=params, timeout=DEFAULT_TIMEOUT)
